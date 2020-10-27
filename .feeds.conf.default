@@ -21,4 +21,4 @@ src-git argon https://github.com/jerrykuku/luci-theme-argon
 src-git jddailybonus https://github.com/jerrykuku/luci-app-jd-dailybonus
 
 #Server酱
-src-git serverchan https://github.com/tty228/luci-app-serverchan.git
+src-git serverchan https://github.com/tty228/luci-app-serverchan
