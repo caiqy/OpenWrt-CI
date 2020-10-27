@@ -12,3 +12,5 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.9/g' package/base-files/files/bin/config_generate
+sed -i '/set network.$1.netmask/a\\t\t\t\tset network.$1.dns='"'192.168.2.1'" package/base-files/files/bin/config_generate
+sed -i '/set network.$1.netmask/a\\t\t\t\tset network.$1.gateway='"'192.168.2.1'" package/base-files/files/bin/config_generate
