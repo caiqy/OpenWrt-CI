@@ -27,14 +27,6 @@ rm feeds/kenzo/luci-theme-opentomato -rf
 rm feeds/kenzo/luci-theme-opentomcat -rf
 rm feeds/kenzo/screenshot -rf
 
-rm feeds/small/brook -rf
-rm feeds/small/shadowsocksr-libev -rf
-rm feeds/small/simple-obfs -rf
-rm feeds/small/trojan -rf
-rm feeds/small/trojan-go -rf
-rm feeds/small/trojan-plus -rf
-
-rm package/lean/luci-app-accesscontrol -rf
 rm package/lean/luci-app-adbyby-plus -rf
 rm package/lean/adbyby -rf
 rm package/lean/luci-app-airplay2 -rf
@@ -74,24 +66,14 @@ rm package/lean/luci-app-rclone -rf
 rm package/lean/rclone -rf
 rm package/lean/rclone-ng -rf
 rm package/lean/rclone-webui-react -rf
+rm package/lean/luci-app-samba4 -rf
 rm package/lean/luci-app-sfe -rf
 rm package/lean/luci-app-softethervpn -rf
 rm package/lean/softethervpn5 -rf
 rm package/lean/luci-app-ssrserver-python -rf
-rm package/lean/shadowsocksr-libev -rf
 rm package/lean/luci-app-syncdial -rf
-rm package/lean/luci-app-usb-printer -rf #usb打印
+rm package/lean/luci-app-usb-printer -rf
 rm package/lean/luci-app-v2ray-server -rf
-rm package/lean/v2ray -rf
-rm package/lean/v2ray-plugin -rf
-rm package/lean/trojan -rf
-rm package/lean/tcpping -rf
-rm package/lean/simple-obfs -rf
-rm package/lean/pdnsd-alt -rf
-rm package/lean/dns2socks -rf
-rm package/lean/ipt2socks -rf
-rm package/lean/kcptun -rf
-rm package/lean/redsocks2 -rf
 rm package/lean/luci-app-verysync -rf
 rm package/lean/verysync -rf
 rm package/lean/luci-app-vsftpd -rf
@@ -160,6 +142,9 @@ rm feeds/luci/applications/luci-app-watchcat -rf
 rm feeds/luci/applications/luci-app-wireguard -rf
 
 rm feeds/luci/themes/luci-theme-material -rf
+rm feeds/luci/modules/luci-mod-freifunk-community -rf
+rm feeds/luci/modules/luci-mod-freifunk -rf
+rm feeds/routing/hnetd -rf
 
 rm package/lean/UnblockNeteaseMusic -rf
 rm package/lean/UnblockNeteaseMusicGo -rf
