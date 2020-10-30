@@ -52,6 +52,7 @@ rm package/lean/luci-app-kodexplorer -rf
 rm package/lean/luci-app-music-remote-center -rf
 rm package/lean/luci-app-mwan3helper -rf
 rm package/lean/luci-app-n2n_v2 -rf
+rm package/lean/luci-app-netdata -rf
 rm package/lean/n2n_v2 -rf
 rm package/lean/luci-app-nfs -rf
 rm package/lean/luci-app-nft-qos -rf
@@ -138,6 +139,7 @@ rm feeds/luci/applications/luci-app-udpxy -rf
 rm feeds/luci/applications/luci-app-uhttpd -rf
 rm feeds/luci/applications/luci-app-unbound -rf
 rm feeds/luci/applications/luci-app-vpnbypass -rf
+rm feeds/luci/applications/luci-app-vnstat -rf
 rm feeds/luci/applications/luci-app-watchcat -rf
 rm feeds/luci/applications/luci-app-wireguard -rf
 
@@ -146,7 +148,7 @@ rm feeds/luci/modules/luci-mod-freifunk-community -rf
 rm feeds/luci/modules/luci-mod-freifunk -rf
 rm feeds/routing/hnetd -rf
 
-rm package/lean/luci-app-filetransfer -rf
+#rm package/lean/luci-app-filetransfer -rf
 
 # reload feeds
 ./scripts/feeds update -a
