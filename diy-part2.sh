@@ -138,7 +138,7 @@ rm feeds/luci/applications/luci-app-travelmate -rf
 rm feeds/luci/applications/luci-app-udpxy -rf
 rm feeds/luci/applications/luci-app-uhttpd -rf
 rm feeds/luci/applications/luci-app-unbound -rf
-rm feeds/luci/applications/luci-app-vpnbypass -rf
+#rm feeds/luci/applications/luci-app-vpnbypass -rf
 rm feeds/luci/applications/luci-app-vnstat -rf
 rm feeds/luci/applications/luci-app-watchcat -rf
 rm feeds/luci/applications/luci-app-wireguard -rf
