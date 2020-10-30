@@ -146,9 +146,7 @@ rm feeds/luci/modules/luci-mod-freifunk-community -rf
 rm feeds/luci/modules/luci-mod-freifunk -rf
 rm feeds/routing/hnetd -rf
 
-rm package/lean/UnblockNeteaseMusic -rf
-rm package/lean/UnblockNeteaseMusicGo -rf
-rm package/lean/luci-app-unblockmusic -rf
+rm package/lean/luci-app-filetransfer -rf
 
 # reload feeds
 ./scripts/feeds update -a
@@ -156,5 +154,6 @@ rm package/lean/luci-app-unblockmusic -rf
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.2.9/g' package/base-files/files/bin/config_generate
+sed -i '/set network.$1.netmask/a\\t\t\t\tset network.$1.ip6assign='"'0'" package/base-files/files/bin/config_generate
 sed -i '/set network.$1.netmask/a\\t\t\t\tset network.$1.dns='"'192.168.2.1'" package/base-files/files/bin/config_generate
 sed -i '/set network.$1.netmask/a\\t\t\t\tset network.$1.gateway='"'192.168.2.1'" package/base-files/files/bin/config_generate
