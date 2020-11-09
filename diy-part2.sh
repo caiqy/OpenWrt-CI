@@ -11,7 +11,8 @@
 #
 
 # rm unused package
-rm feeds/kenzo/luci-app-jd-dailybonus/ -rf
+rm feeds/kenzo/luci-app-aliddns -rf
+rm feeds/kenzo/luci-app-jd-dailybonus -rf
 rm feeds/kenzo/luci-app-advancedsetting -rf
 rm feeds/kenzo/luci-app-clash -rf
 rm feeds/kenzo/luci-app-eqos -rf
@@ -94,7 +95,7 @@ rm feeds/luci/applications/luci-app-bcp38 -rf
 rm feeds/luci/applications/luci-app-clamav -rf
 rm feeds/luci/applications/luci-app-commands -rf
 rm feeds/luci/applications/luci-app-coovachilli -rf
-rm feeds/luci/applications/luci-app-ddns -rf
+#rm feeds/luci/applications/luci-app-ddns -rf
 rm feeds/luci/applications/luci-app-diag-core -rf
 rm feeds/luci/applications/luci-app-dnscrypt-proxy -rf
 rm feeds/luci/applications/luci-app-dump1090 -rf
@@ -138,7 +139,7 @@ rm feeds/luci/applications/luci-app-travelmate -rf
 rm feeds/luci/applications/luci-app-udpxy -rf
 rm feeds/luci/applications/luci-app-uhttpd -rf
 rm feeds/luci/applications/luci-app-unbound -rf
-#rm feeds/luci/applications/luci-app-vpnbypass -rf
+rm feeds/luci/applications/luci-app-vpnbypass -rf
 rm feeds/luci/applications/luci-app-vnstat -rf
 rm feeds/luci/applications/luci-app-watchcat -rf
 rm feeds/luci/applications/luci-app-wireguard -rf
@@ -147,8 +148,6 @@ rm feeds/luci/themes/luci-theme-material -rf
 rm feeds/luci/modules/luci-mod-freifunk-community -rf
 rm feeds/luci/modules/luci-mod-freifunk -rf
 rm feeds/routing/hnetd -rf
-
-#rm package/lean/luci-app-filetransfer -rf
 
 # reload feeds
 ./scripts/feeds update -a
