@@ -20,3 +20,5 @@
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/argon
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/jddailybonus
 git clone https://github.com/tty228/luci-app-serverchan package/serverchan
+git clone https://github.com/destan19/OpenAppFilter package/appfilter
+git clone https://github.com/maddie/openwrt-tinc-1.1 package/tinc

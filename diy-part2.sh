@@ -143,6 +143,7 @@ rm feeds/luci/applications/luci-app-vpnbypass -rf
 rm feeds/luci/applications/luci-app-vnstat -rf
 rm feeds/luci/applications/luci-app-watchcat -rf
 rm feeds/luci/applications/luci-app-wireguard -rf
+rm feeds/packages/net/tinc -rf
 
 rm feeds/luci/themes/luci-theme-material -rf
 rm feeds/luci/modules/luci-mod-freifunk-community -rf
